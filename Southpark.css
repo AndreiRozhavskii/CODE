@@ -1,0 +1,116 @@
+body{
+  margin: 5px 0px 0px 0px;
+  background-image: url(https://www.icegif.com/wp-content/uploads/snow-icegif-28.gif);
+  background-size: contain ;
+  
+  
+}
+.menu a{
+  color: yellow;
+  font-family: cursive;
+  font-style: italic;
+  margin: 10px;
+}
+
+.logo{
+  display: flex;
+ 
+ justify-content: space-between;
+ 
+ align-items: center;
+  
+}
+
+
+.logoitem iframe{
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+}
+
+.logoitem img{
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+}
+
+.logoitembig{
+  transition: 0.5s;
+}
+.logoitembig:hover{
+  transform: scale(1.2);
+}
+
+.logoitembig img{
+  width: 1100px;
+  height: 600px;
+}
+
+h3{
+  color: rgb(231, 228, 23);
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.logoitem {
+  transition: 0.5s;
+}
+
+.logoitem:hover{
+  transform: scale(1.2);
+}
+
+a {
+  color: rgb(128, 128, 128);
+}
+
+.container {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+ 
+}
+.item{
+  
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  text-align: center;
+  background-color: bisque; 
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+  
+}
+
+.item:hover {
+  transform: scale(1.2);
+}
+.container img{
+  border: 3px solid transparent;
+  border-radius: 10px;
+  height: 150px;
+  
+}
+.item span{
+  font-family: cursive;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  
+}
+.item p{
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  
+  font-weight: 900;
+}
+
+.signature{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}

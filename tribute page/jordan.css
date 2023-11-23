@@ -1,0 +1,31 @@
+body{
+    margin:60px 0px;
+  }
+  
+  .airname{
+    color:#bb0000 !important;
+  }
+  
+  .caption h4{
+    font-weight:bold;
+  }
+  .caption p{
+    font-size:14px;
+  }
+  
+  .career_highlight{
+    font-weight:bold;
+  }
+  
+  /* centered columns styles */
+  .row-centered {
+      text-align:center;
+  }
+  .col-centered {
+      display:inline-block;
+      float:none;
+      /* reset the text-align */
+      text-align:left;
+      /* inline-block space fix */
+      margin-right:-4px;
+  }
